@@ -1,0 +1,57 @@
+# ===== 操作系统垃圾文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+*.tmp
+*.bak
+~$*
+
+# ===== 环境变量与密钥（重要！）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ===== Node / 前端 =====
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+
+# ===== Java / C / C++ 构建产物 =====
+target/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+
+# ===== 数据与压缩包（需要时取消注释）=====
+# *.zip
+# *.7z
